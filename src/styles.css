@@ -27,7 +27,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 200px 0px;
+  padding: 150px 0px;
 }
 
 .layerOne {
@@ -39,31 +39,50 @@ p {
   padding: 5px;
   background-color: var(--secondary-color);
 }
+
 .theWeatherparagraph,
-.headingOneHomepage {
+.layerOneHeading {
   color: var(--secondary-color);
+}
+
+.layerOneHeading {
+  font-family: "Ultra", serif;
+  text-align: center;
 }
 
 .theWeatherparagraph,
 .theVideoParagraph {
-  font-size: 24px;
+  font-size: 22px;
 }
 
-.homepageLink {
-  margin-top: 45px;
-}
-
-.homepageLink a {
-  background-color: var(--secondary-color);
-  font-family: "Poiret One", cursive;
-  color: var(--third-color);
-  padding: 20px 10px;
+.weatherAppLink a,
+.contactLink a {
+  padding: 20px 15px;
   border-radius: 5px;
   text-decoration: none;
   text-transform: capitalize;
-  display: block;
-  margin: 0 auto;
-  width: 35%;
+  text-align: center;
+}
+
+.weatherAppLink a {
+  background-color: var(--secondary-color);
+  font-family: "Poiret One", cursive;
+  color: var(--third-color);
+  text-align: center;
+}
+
+.contactLink a {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  font-family: "Poiret One", cursive;
+  box-shadow: 4px 4px 4px rgb(236, 234, 112);
+}
+
+.contactLink {
+  margin-top: 35px;
+}
+
+.weatherAppLink {
   text-align: center;
 }
 
@@ -71,4 +90,31 @@ p {
   font-size: 36px;
   text-align: center;
   margin-top: -20px;
+}
+
+.layerTwo {
+  background-color: black;
+  padding: 100px 30px;
+}
+.layerTwoHeading {
+  text-align: center;
+}
+.aguaDasPedras {
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  display: block;
+  margin: 75px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .layerTwoHeading {
+    line-height: 1;
+    margin-bottom: 35px;
+  }
+  .layerOne {
+    margin: 10px auto;
+  }
+  .layerTwo {
+    padding: 50px 30px;
+  }
 }
