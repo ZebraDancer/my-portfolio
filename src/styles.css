@@ -96,9 +96,11 @@ p {
   background-color: black;
   padding: 100px 30px;
 }
+
 .layerTwoHeading {
   text-align: center;
 }
+
 .aguaDasPedras {
   border: 2px solid var(--main-color);
   border-radius: 5px;
