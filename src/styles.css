@@ -113,6 +113,9 @@ p {
     line-height: 1;
     margin-bottom: 35px;
   }
+  .weatherAppLink {
+    margin-bottom: 20px;
+  }
   .layerOne {
     margin: 10px auto;
   }
