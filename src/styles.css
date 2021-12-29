@@ -29,3 +29,46 @@ p {
   text-align: center;
   padding: 200px 0px;
 }
+
+.layerOne {
+  margin: 100px 0px;
+  padding: 20px 30px;
+}
+
+.weatherAppImage {
+  padding: 5px;
+  background-color: var(--secondary-color);
+}
+.theWeatherparagraph,
+.headingOneHomepage {
+  color: var(--secondary-color);
+}
+
+.theWeatherparagraph,
+.theVideoParagraph {
+  font-size: 24px;
+}
+
+.homepageLink {
+  margin-top: 45px;
+}
+
+.homepageLink a {
+  background-color: var(--secondary-color);
+  font-family: "Poiret One", cursive;
+  color: var(--third-color);
+  padding: 20px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  text-align: center;
+}
+
+.headingOneHomepage {
+  font-size: 36px;
+  text-align: center;
+  margin-top: -20px;
+}
