@@ -6,3 +6,7 @@ p {
 h1 {
   font-family: "Ultra", serif;
 }
+
+.fab {
+  color: red;
+}
