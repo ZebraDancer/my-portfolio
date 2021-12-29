@@ -16,8 +16,9 @@ h1 {
 
 h2 {
   line-height: 2.5;
-  color: var(--main-color);
+  color: var(--third-color);
 }
+
 p {
   font-size: 32px;
   color: var(--main-color);
@@ -26,5 +27,5 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 220px 0px;
+  padding: 200px 0px;
 }
