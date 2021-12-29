@@ -1,24 +1,30 @@
+:root {
+  --main-color: #fff;
+  --secondary-color: #000;
+  --third-color: #ffff00;
+}
+
 h2,
 p {
   font-family: "Poiret One", cursive;
-  color: #fff;
 }
 
 h1 {
   font-family: "Ultra", serif;
-  color: #fff;
+  color: var(--main-color);
 }
 
 h2 {
   line-height: 2.5;
+  color: var(--main-color);
 }
 p {
-  color: #fff;
   font-size: 32px;
+  color: var(--main-color);
 }
 
 .hero {
-  background-color: #000;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 220px 0px;
 }
