@@ -1,12 +1,24 @@
+h2,
 p {
   font-family: "Poiret One", cursive;
-  font-size: 32px;
+  color: #fff;
 }
 
 h1 {
   font-family: "Ultra", serif;
+  color: #fff;
 }
 
-.fab {
-  color: red;
+h2 {
+  line-height: 2.5;
+}
+p {
+  color: #fff;
+  font-size: 32px;
+}
+
+.hero {
+  background-color: #000;
+  text-align: center;
+  padding: 220px 0px;
 }
