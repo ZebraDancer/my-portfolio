@@ -5,7 +5,8 @@
 }
 
 h2,
-p {
+.liApp li,
+.liVideo li {
   font-family: "Poiret One", cursive;
 }
 
@@ -40,7 +41,6 @@ p {
   background-color: var(--secondary-color);
 }
 
-.theWeatherparagraph,
 .layerOneHeading {
   color: var(--secondary-color);
 }
@@ -50,11 +50,16 @@ p {
   text-align: center;
 }
 
-.theWeatherparagraph,
-.theVideoParagraph {
+.liApp li,
+.liVideo li {
   font-size: 22px;
+  list-style-type: none;
+  text-align: center;
 }
 
+.liVideo li {
+  color: var(--main-color);
+}
 .weatherAppLink a,
 .contactLink a {
   padding: 20px 15px;
@@ -69,6 +74,7 @@ p {
   background-color: var(--secondary-color);
   color: var(--third-color);
   text-align: center;
+  margin-left: 25px;
 }
 
 .contactLink a {
@@ -111,28 +117,22 @@ p {
 @media only screen and (max-width: 768px) {
   .layerTwoHeading,
   .layerOneHeading {
-    line-height: 1.5;
+    line-height: 1;
+    text-align: center;
   }
 
-  .theWeatherparagraph,
-  .theVideoParagraph {
+  .liApp li,
+  .liVideo li {
     font-size: 18px;
     margin-top: 25px;
+    text-align: center;
+    line-height: 1;
+    margin-left: -35px;
   }
 
-  .weatherAppImage {
-    display: block;
-    margin: 0 auto;
-  }
-  .layerTwo {
-    padding: 10px 10px;
-  }
-  .layerOne {
-    padding: 10px 10px;
-  }
   .aguaDasPedras {
     width: 75%;
     display: block;
-    margin: 100px auto;
+    margin: 25px auto;
   }
 }
