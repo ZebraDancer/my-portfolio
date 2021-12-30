@@ -32,9 +32,44 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
-    <div class="container-fluid aboutHeader">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+          <a class="navbar-brand nav-link fw-bold" href="/">Vanessa Marques</a>
+          <button
+            class="navbar-toggler me-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link ps-3" aria-current="page" href="/"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-3 active fw-bold" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-3" href="/work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-3" href="/contact.html">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    <div class="container-fluid aboutSection">
       <div class="row">
-        <div class="col-6 mt-5">
+        <div class="col-6">
           <h3>Hello, I'm</h3>
           <h2 class="aboutHeaderTwo">Vanessa Marques</h>
         </div>
@@ -42,24 +77,21 @@
           <img
             src="/images/about-pic.jpg"
             alt="Vanessa Marques"
-            class="img-fluid aboutPic mb-5"
+            class="img-fluid img-thumbnail aboutPic"
           />
         </div>
       </div>
-   
-    </div>
-<div class="aboutLink mt-5">
+  <div class="aboutLink">
     <a href="/work.html" title="Work"> see my work </a> 
   </div>
-
     <div class="container-fluid fixed-bottom icons">
-      <a href="/contact.html" title="GitHub">
-          <i class="fab fa-github"></i>
+  <a href="/contact.html" title="GitHub">
+    <i class="fab fa-github"></i>
       </a>
   <a href="/contact.html" title="LinkedIn">
-           <i class="fab fa-linkedin"></i>
-      </a>
-         </div>
-    </div>
+      <i class="fab fa-linkedin"></i>
+          </a>
+  </div>
+<div>
   </body>
 </html>
