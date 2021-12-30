@@ -6,7 +6,8 @@
 
 h2,
 .liApp li,
-.liVideo li {
+.liVideo li,
+.textNavbar {
   font-family: "Poiret One", cursive;
 }
 
@@ -135,7 +136,7 @@ a .fab {
 
 .icons {
   display: flex;
-  justify-content: center;
+  justify-content: end;
 }
 
 @media only screen and (max-width: 768px) {
