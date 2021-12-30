@@ -31,7 +31,16 @@ p {
   padding: 150px 0px;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 2)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.textNavbar {
+  color: var(--secondary-color);
+}
+
 .layerOne {
+  border-style: ;
   margin: 100px 0px;
   padding: 40px 0px;
 }
@@ -60,6 +69,7 @@ p {
 .liVideo li {
   color: var(--main-color);
 }
+
 .weatherAppLink a,
 .contactLink a {
   padding: 20px 15px;
