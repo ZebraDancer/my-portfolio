@@ -23,7 +23,9 @@ h3,
 .aboutParagraphs,
 .indexAppParagraph,
 .indexVideoParagraph,
-.headerWork {
+.headerWork,
+.contactPageLinks,
+.emailLink a {
   font-family: "Poiret One", cursive;
 }
 
@@ -54,14 +56,16 @@ p,
 h3,
 .headerWork,
 .workParagraphs,
-h4 {
+h4,
+.emailLink a {
   text-align: center;
 }
 
 .hero,
 .aboutSection,
 .workSection,
-.layerTwo {
+.layerTwo,
+.contactSection {
   background-color: var(--secondary-color);
   padding: 100px;
 }
@@ -82,7 +86,8 @@ h3,
 .aboutParagraphs,
 h2,
 .weatherAppLink a,
-.aboutLink a {
+.aboutLink a,
+.emailLink a {
   color: var(--third-color);
 }
 
@@ -115,7 +120,9 @@ p,
 
 .weatherAppLink a,
 .contactLink a,
-.aboutLink a {
+.aboutLink a,
+.contactPageLinks a,
+.contactPageLinks a {
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -127,7 +134,9 @@ p,
   box-shadow: 4px 4px 4px rgb(236, 234, 112);
 }
 
-.weatherAppLink a {
+.weatherAppLink a,
+.aboutLink a,
+.contactPageLinks a {
   background-color: var(--secondary-color);
 }
 
@@ -141,7 +150,6 @@ p,
 }
 
 .aboutLink a {
-  background-color: var(--secondary-color);
   padding: 20px 30px;
   border-radius: 8px;
   border: 1px solid var(--main-color);
@@ -149,9 +157,20 @@ p,
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.aboutLink {
+.aboutLink,
+.contactPageLinks {
   display: flex;
   justify-content: center;
+}
+
+.contactPageLinks a {
+  color: var(--third-color);
+  padding: 50px;
+  margin: 25px;
+  width: auto;
+  line-height: auto;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .aguaDasPedras {
@@ -161,7 +180,8 @@ p,
   margin: 0px auto;
 }
 
-a .fab {
+a .fab,
+a .fas {
   border: none;
   border-radius: 24px;
   background-color: var(--third-color);
