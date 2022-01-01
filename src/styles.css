@@ -17,7 +17,8 @@ h3,
 
 h1,
 .layerOneHeading,
-.aboutHeaderTwo {
+.aboutHeaderTwo,
+.headerWork {
   font-family: "Ultra", serif;
 }
 
@@ -53,7 +54,8 @@ p {
   font-size: 32px;
 }
 
-.hero {
+.hero,
+.workSection {
   background-color: var(--secondary-color);
   padding: 150px 0px;
 }
@@ -181,6 +183,11 @@ h3 {
   display: flex;
   justify-content: center;
   background-color: var(--secondary-color);
+}
+
+.headerWork {
+  color: var(--third-color);
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 768px) {
