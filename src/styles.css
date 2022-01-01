@@ -11,6 +11,7 @@ h2 {
 
 h3 {
   font-size: 48px;
+  margin-top: 40px;
 }
 
 h2,
@@ -42,10 +43,8 @@ p,
   color: var(--main-color);
 }
 
-.weatherAppLink,
 .layerTwoHeading,
 .headingOneHomepage,
-.weatherAppLink a,
 .layerOneHeading,
 .indexAppParagraph,
 .indexVideoParagraph,
@@ -57,7 +56,8 @@ h3,
 .headerWork,
 .workParagraphs,
 h4,
-.emailLink a {
+.emailLink a,
+.aboutParagraphs {
   text-align: center;
 }
 
@@ -92,8 +92,9 @@ h2,
 }
 
 p,
-.workParagraphs {
-  font-size: 20px;
+.workParagraphs,
+.aboutParagraphs {
+  font-size: 18px;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -129,7 +130,7 @@ p,
 
 .weatherAppLink a,
 .contactLink a {
-  padding: 20px 15px;
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 4px 4px 4px rgb(236, 234, 112);
 }
@@ -158,19 +159,20 @@ p,
 }
 
 .aboutLink,
-.contactPageLinks {
+.contactPageLinks,
+.weatherAppLink {
   display: flex;
   justify-content: center;
 }
 
 .contactPageLinks a {
   color: var(--third-color);
-  padding: 50px;
+  padding: 40px;
   margin: 25px;
   width: auto;
   line-height: auto;
   border-radius: 50%;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 3px rgb(236, 234, 112);
 }
 
 .aguaDasPedras {
@@ -199,7 +201,7 @@ a .fas {
 
 .aboutPic {
   display: block;
-  margin: 0 auto;
+  margin: 40px auto;
   width: 50%;
   border-radius: 360px;
 }
@@ -214,30 +216,34 @@ a .fas {
   p,
   .indexVideoParagraph,
   .indexAppParagraph {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
   }
 
   h3,
-  .aboutHeaderTwo,
-  h2,
-  .headerWork {
-    font-size: 20px;
+  h2 {
+    font-size: 18px;
   }
 
   .layerTwo,
-  .layerTwo {
-    padding: 25px;
+  .layerOne,
+  .aboutSection {
+    padding: 30px;
+  }
+
+  .hero,
+  .contactSection,
+  .workSection {
+    padding: 70px;
   }
 
   .aguaDasPedras {
     width: 75%;
     display: block;
     margin: 25px auto;
-  }
-
-  .aboutPic {
-    display: block;
-    margin: 30px auto;
   }
 
   .icons {
