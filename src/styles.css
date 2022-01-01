@@ -5,15 +5,43 @@
 }
 
 h2,
+h3,
 .liApp li,
 .liVideo li,
-.nav-link {
+.nav-link,
+.weatherAppLink a,
+.contactLink a,
+.aboutLink a {
   font-family: "Poiret One", cursive;
 }
 
-h1 {
+h1,
+.layerOneHeading,
+.aboutHeaderTwo {
   font-family: "Ultra", serif;
+}
+
+h1,
+p,
+.liVideo li,
+.aboutHeaderTwo {
   color: var(--main-color);
+  color: var(--main-color);
+}
+
+.weatherAppLink,
+.layerTwoHeading,
+.headingOneHomepage,
+.weatherAppLink a,
+.layerOneHeading,
+.liApp li,
+.liVideo li,
+.weatherAppLink a,
+.contactLink a,
+.hero,
+.aboutHeaderTwo,
+h3 {
+  text-align: center;
 }
 
 h2 {
@@ -23,12 +51,10 @@ h2 {
 
 p {
   font-size: 32px;
-  color: var(--main-color);
 }
 
 .hero {
   background-color: var(--secondary-color);
-  text-align: center;
   padding: 150px 0px;
 }
 
@@ -36,7 +62,8 @@ p {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 2)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.textNavbar {
+.textNavbar,
+.layerOneHeading {
   color: var(--secondary-color);
 }
 
@@ -51,41 +78,28 @@ p {
   background-color: var(--secondary-color);
 }
 
-.layerOneHeading {
-  color: var(--secondary-color);
-}
-
-.layerOneHeading {
-  font-family: "Ultra", serif;
-  text-align: center;
-}
-
 .liApp li,
 .liVideo li {
   font-size: 22px;
   list-style-type: none;
-  text-align: center;
 }
 
-.liVideo li {
-  color: var(--main-color);
+.weatherAppLink a,
+.contactLink a,
+.aboutLink a {
+  text-decoration: none;
+  text-transform: capitalize;
 }
-
 .weatherAppLink a,
 .contactLink a {
   padding: 20px 15px;
   border-radius: 5px;
-  text-decoration: none;
-  text-transform: capitalize;
-  text-align: center;
-  font-family: "Poiret One", cursive;
   box-shadow: 4px 4px 4px rgb(236, 234, 112);
 }
 
 .weatherAppLink a {
   background-color: var(--secondary-color);
   color: var(--third-color);
-  text-align: center;
   margin-left: 25px;
 }
 
@@ -98,23 +112,23 @@ p {
   margin-top: 35px;
 }
 
-.weatherAppLink {
-  text-align: center;
+.aboutLink a {
+  color: var(--third-color);
+  background-color: var(--secondary-color);
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: 1px solid var(--main-color);
+  margin-bottom: 30px;
 }
 
 .headingOneHomepage {
   font-size: 36px;
-  text-align: center;
   margin-top: -20px;
 }
 
 .layerTwo {
   background-color: black;
   padding: 100px 30px 70px 30px;
-}
-
-.layerTwoHeading {
-  text-align: center;
 }
 
 .aguaDasPedras {
@@ -141,24 +155,19 @@ a .fab {
 }
 
 .aboutHeaderTwo {
-  font-family: "Ultra", serif;
-  color: var(--main-color);
   line-height: 1.5;
-  text-align: center;
   font-size: 40px;
 }
 
 h3 {
   color: var(--third-color);
-  font-family: "Poiret One", cursive;
-  text-align: center;
   font-size: 48px;
-  margin: 30px 0px;
+  margin: 45px;
 }
 
 .aboutPic {
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
   width: 50%;
   border-radius: 360px;
 }
@@ -166,18 +175,6 @@ h3 {
 .aboutSection {
   background-color: var(--secondary-color);
   padding: 100px;
-}
-
-.aboutLink a {
-  text-decoration: none;
-  color: var(--third-color);
-  font-family: "Poiret One", cursive;
-  background-color: var(--secondary-color);
-  padding: 20px 30px;
-  border-radius: 8px;
-  text-transform: capitalize;
-  border: 1px solid var(--main-color);
-  margin: 25px;
 }
 
 .aboutLink {
@@ -188,7 +185,9 @@ h3 {
 
 @media only screen and (max-width: 768px) {
   .layerTwoHeading,
-  .layerOneHeading {
+  .layerOneHeading,
+  .liApp li,
+  .liVideo li {
     line-height: 1;
     text-align: center;
   }
@@ -197,8 +196,6 @@ h3 {
   .liVideo li {
     font-size: 18px;
     margin-top: 25px;
-    text-align: center;
-    line-height: 1;
     margin-left: -35px;
   }
 
@@ -220,6 +217,11 @@ h3 {
   }
 
   .aboutSection {
-    padding: 45px;
+    padding: 25px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
   }
 }
