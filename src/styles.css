@@ -26,7 +26,8 @@ h3,
 .indexVideoParagraph,
 .headerWork,
 .contactPageLinks,
-.emailLink a {
+.emailLink a,
+.icons p {
   font-family: "Poiret One", cursive;
 }
 
@@ -114,7 +115,8 @@ p,
   margin-top: 50px;
 }
 
-.weatherAppImage {
+.weatherAppImage,
+.workAppImg {
   padding: 5px;
   background-color: var(--secondary-color);
 }
@@ -197,6 +199,11 @@ a .fas {
 .icons {
   display: flex;
   justify-content: end;
+}
+
+.icons p a {
+  color: var(--third-color);
+  text-decoration: none;
 }
 
 .aboutPic {
