@@ -231,13 +231,21 @@ a .fas {
   .layerTwo,
   .layerOne,
   .aboutSection {
-    padding: 30px;
+    padding: 50px;
   }
 
   .hero,
   .contactSection,
   .workSection {
-    padding: 70px;
+    padding: 80px;
+  }
+
+  .contactLink {
+    margin: 40px 0px -15px 0px;
+  }
+
+  .indexAppParagraph {
+    margin-bottom: -20px;
   }
 
   .aguaDasPedras {
