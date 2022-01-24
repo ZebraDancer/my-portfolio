@@ -206,9 +206,9 @@ a .fas {
   text-decoration: none;
 }
 
-.aboutPic {
+.aboutPic img {
   display: block;
-  margin: 40px auto;
+  margin: 100px auto;
   width: 50%;
   border-radius: 360px;
 }
@@ -264,5 +264,9 @@ a .fas {
   .icons {
     display: flex;
     justify-content: center;
+  }
+
+  .aboutPic img {
+    margin: 0 auto;
   }
 }
