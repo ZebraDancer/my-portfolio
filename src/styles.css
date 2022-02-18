@@ -20,63 +20,75 @@ h3,
 .weatherAppLink a,
 .contactLink a,
 .aboutLink a,
+.dictionaryAppLink a,
 .workParagraphs,
 .aboutParagraphs,
 .indexAppParagraph,
-.indexVideoParagraph,
 .headerWork,
 .contactPageLinks,
 .emailLink a,
-.icons p {
+.icons p,
+.indexDictionaryParagraph {
   font-family: "Poiret One", cursive;
 }
 
 h1,
-.layerOneHeading,
+.layerHeading,
 .aboutHeaderTwo,
-h4 {
+h4,
+.dictionaryHeading {
   font-family: "Ultra", serif;
 }
 
 h1,
 p,
-.aboutHeaderTwo {
+.aboutHeaderTwo,
+.indexDictionaryParagraph {
   color: var(--main-color);
 }
 
-.layerTwoHeading,
 .headingOneHomepage,
-.layerOneHeading,
+.layerHeading,
 .indexAppParagraph,
-.indexVideoParagraph,
-.weatherAppLink a,
-.contactLink a,
+.weatherAppLink,
+.contactLink,
+.dictionaryAppLink,
 .hero,
 .aboutHeaderTwo,
 h3,
 .headerWork,
 .workParagraphs,
 h4,
-.emailLink a,
-.aboutParagraphs {
+.emailLink,
+.aboutParagraphs,
+.indexDictionaryParagraph,
+.dictionaryHeading {
   text-align: center;
 }
 
 .hero,
 .aboutSection,
 .workSection,
-.layerTwo,
+.blackLayer,
 .contactSection {
   background-color: var(--secondary-color);
   padding: 100px;
 }
 
-.layerOne {
+.layer {
   padding: 100px;
 }
 
+.dictionaryImage {
+  border: 3px solid var(--main-color);
+}
+
+.weatherAppImage {
+  border: 3px solid var(--secondary-color);
+}
+
 .textNavbar,
-.layerOneHeading,
+.layerHeading,
 .workParagraphs,
 .indexAppParagraph {
   color: var(--secondary-color);
@@ -115,23 +127,19 @@ p,
   margin-top: 50px;
 }
 
-.weatherAppImage,
-.workAppImg {
-  padding: 5px;
-  background-color: var(--secondary-color);
-}
-
 .weatherAppLink a,
 .contactLink a,
 .aboutLink a,
 .contactPageLinks a,
-.contactPageLinks a {
+.contactPageLinks a,
+.dictionaryAppLink a {
   text-decoration: none;
   text-transform: capitalize;
 }
 
 .weatherAppLink a,
-.contactLink a {
+.contactLink a,
+.dictionaryAppLink a {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 4px 4px 4px rgb(236, 234, 112);
@@ -143,7 +151,8 @@ p,
   background-color: var(--secondary-color);
 }
 
-.contactLink a {
+.contactLink a,
+.dictionaryAppLink a {
   background-color: var(--main-color);
   color: var(--secondary-color);
 }
@@ -175,13 +184,6 @@ p,
   line-height: auto;
   border-radius: 50%;
   box-shadow: 3px 3px 3px rgb(236, 234, 112);
-}
-
-.aguaDasPedras {
-  border: 2px solid var(--main-color);
-  border-radius: 5px;
-  display: block;
-  margin: 0px auto;
 }
 
 a .fab,
@@ -221,7 +223,6 @@ a .fas {
   .workParagraphs,
   .aboutParagraphs,
   p,
-  .indexVideoParagraph,
   .indexAppParagraph {
     font-size: 14px;
   }
@@ -235,8 +236,8 @@ a .fas {
     font-size: 18px;
   }
 
-  .layerTwo,
-  .layerOne,
+  .blackLayer,
+  .layer,
   .aboutSection {
     padding: 50px;
   }
@@ -253,12 +254,6 @@ a .fas {
 
   .indexAppParagraph {
     margin-bottom: -20px;
-  }
-
-  .aguaDasPedras {
-    width: 75%;
-    display: block;
-    margin: 25px auto;
   }
 
   .icons {
