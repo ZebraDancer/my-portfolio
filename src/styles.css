@@ -17,16 +17,16 @@ h3 {
 h2,
 h3,
 .nav-link,
-.weatherAppLink a,
-.contactLink a,
-.aboutLink a,
-.dictionaryAppLink a,
+.weatherAppLink,
+.contactLink,
+.aboutLink,
+.dictionaryAppLink,
 .workParagraphs,
 .aboutParagraphs,
 .indexAppParagraph,
 .headerWork,
 .contactPageLinks,
-.emailLink a,
+.emailLink,
 .icons p,
 .indexDictionaryParagraph {
   font-family: "Poiret One", cursive;
@@ -42,8 +42,9 @@ h4,
 
 h1,
 p,
-.aboutHeaderTwo,
-.indexDictionaryParagraph {
+h3,
+.indexDictionaryParagraph,
+.aboutParagraphs {
   color: var(--main-color);
 }
 
@@ -95,8 +96,7 @@ h4,
 }
 
 .headerWork,
-h3,
-.aboutParagraphs,
+.aboutHeaderTwo,
 h2,
 .weatherAppLink a,
 .aboutLink a,
@@ -111,7 +111,11 @@ p,
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 2)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 0, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  border: 1px solid #000;
 }
 
 .headingOneHomepage {
@@ -185,9 +189,8 @@ p,
   border-radius: 50%;
   box-shadow: 3px 3px 3px rgb(236, 234, 112);
 }
-
-a .fab,
-a .fas {
+.fab,
+.fas {
   border: none;
   border-radius: 24px;
   background-color: var(--third-color);
@@ -212,7 +215,7 @@ a .fas {
   display: block;
   margin: 100px auto;
   width: 50%;
-  border-radius: 360px;
+  border-radius: 50%;
 }
 
 .workAppImg {
@@ -237,8 +240,7 @@ a .fas {
   }
 
   .blackLayer,
-  .layer,
-  .aboutSection {
+  .layer {
     padding: 50px;
   }
 
